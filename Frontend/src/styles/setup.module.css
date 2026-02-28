@@ -1,0 +1,35 @@
+.card {
+  background: rgba(15,23,42,0.7);
+  border: 1px solid #1e293b;
+  border-radius: 16px; padding: 28px;
+}
+.title   { font-size: 20px; font-weight: 800; color: #f8fafc; letter-spacing: -0.5px; }
+.desc    { font-size: 13px; color: #475569; margin-top: 4px; margin-bottom: 20px; }
+.loading { color: #475569; padding: 40px; text-align: center; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.fullWidth { grid-column: 1 / -1; }
+
+.label {
+  font-size: 11px; font-family: 'DM Mono', monospace;
+  color: #64748b; letter-spacing: 0.5px; text-transform: uppercase;
+}
+.input, .textarea {
+  background: rgba(5,10,20,0.8);
+  border: 1px solid #1e293b; border-radius: 8px;
+  padding: 10px 14px; color: #e2e8f0; font-size: 14px;
+  font-family: 'Syne', sans-serif; outline: none;
+}
+.input:focus, .textarea:focus { border-color: #1d4ed8; }
+.textarea { height: 90px; resize: vertical; }
+
+.saveBtn {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+  border: none; border-radius: 10px;
+  padding: 12px 24px; color: #fff;
+  font-weight: 700; font-size: 14px;
+  cursor: pointer; font-family: 'Syne', sans-serif;
+}
+.saveBtn:disabled { opacity: 0.6; cursor: not-allowed; }

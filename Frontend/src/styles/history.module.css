@@ -1,0 +1,37 @@
+.layout { display: flex; flex-direction: column; gap: 16px; }
+.topBar  { display: flex; align-items: flex-start; justify-content: space-between; }
+.title   { font-size: 20px; font-weight: 800; color: #f8fafc; letter-spacing: -0.5px; }
+.desc    { font-size: 13px; color: #475569; margin-top: 4px; }
+
+.clearBtn {
+  background: rgba(239,68,68,0.1);
+  border: 1px solid rgba(239,68,68,0.3);
+  border-radius: 8px; padding: 8px 14px;
+  color: #ef4444; font-size: 12px; cursor: pointer;
+  font-family: 'Syne', sans-serif; font-weight: 600;
+}
+
+.empty      { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 60px; }
+.emptyIcon  { font-size: 40px; }
+.emptyTitle { font-size: 16px; font-weight: 700; color: #475569; }
+.emptyDesc  { font-size: 13px; color: #334155; }
+
+.list { display: flex; flex-direction: column; gap: 12px; }
+.card {
+  background: rgba(15,23,42,0.7);
+  border: 1px solid #1e293b;
+  border-radius: 14px; padding: 16px 20px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.cardTop  { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.category { font-size: 11px; font-family: 'DM Mono', monospace; color: #64748b; font-weight: 500; }
+.badges   { display: flex; gap: 6px; }
+.time     { margin-left: auto; font-size: 11px; font-family: 'DM Mono', monospace; color: #334155; }
+.guest    { font-size: 13px; color: #94a3b8; }
+.reply    { font-size: 13px; color: #e2e8f0; line-height: 1.6; }
+.staff    {
+  font-size: 12px; color: #f97316;
+  background: rgba(249,115,22,0.06);
+  border: 1px solid rgba(249,115,22,0.15);
+  border-radius: 8px; padding: 6px 10px;
+}
